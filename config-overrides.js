@@ -1,5 +1,8 @@
+/* eslint-disable @typescript-eslint/no-var-requires */
 const { override, fixBabelImports, addLessLoader } = require('customize-cra');
+const path = require('path');
 
+// eslint-disable-next-line no-undef
 module.exports = override(
   fixBabelImports('import', {
     libraryName: 'antd',
@@ -9,11 +12,8 @@ module.exports = override(
   addLessLoader({
     lessOptions: {
       javascriptEnabled: true,
-      modifyVars: {
-        '@primary-color': '#5b8c00', // customize as needed
-        // '@link-color': '#e6a07c', // customize as needed
-        // '@font-size-base': '18px', // customize as needed
-      },
+      // eslint-disable-next-line no-undef
+      modifyVars: path.join(__dirname, './src/theme/vars.less'),
     },
   })
 );
