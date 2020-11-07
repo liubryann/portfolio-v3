@@ -1,6 +1,7 @@
 import React from 'react';
 import { Carousel } from 'antd';
 import { Typography } from 'antd';
+import { Divider } from 'antd';
 import jobs from './jobs.module.less';
 
 const { Title, Text } = Typography;
@@ -8,6 +9,7 @@ const { Title, Text } = Typography;
 const Jobs: React.FC = () => {
   return (
     <div>
+      <Divider>Experience</Divider>
       <Carousel>
         <div className={jobs.job}>
           <Title level={4}>
