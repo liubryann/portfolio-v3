@@ -16,17 +16,19 @@ const Projects: React.FC = () => {
           <Card hoverable cover={<img src={uimpactify} />}>
             <Meta
               title="U-Impactify"
-              description="Social e-learning platform "
+              description="Social e-learning platform (private)"
             />
           </Card>
         </Col>
         <Col xs={24} xl={12}>
-          <Card hoverable cover={<img src={salesapp} />}>
-            <Meta
-              title="Sales Application"
-              description="Mobile shopping platform"
-            />
-          </Card>
+          <a href="https://github.com/eric-li18/sales-application">
+            <Card hoverable cover={<img src={salesapp} />}>
+              <Meta
+                title="Sales Application"
+                description="Mobile shopping platform"
+              />
+            </Card>
+          </a>
         </Col>
       </Row>
     </div>

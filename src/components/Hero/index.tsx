@@ -9,6 +9,7 @@ const Hero: React.FC = () => {
     <div className={hero.hero}>
       <Title level={1}>Bryan Liu</Title>
       <Title level={3}>3rd Year SWE @UofT</Title>
+      <br />
     </div>
   );
 };

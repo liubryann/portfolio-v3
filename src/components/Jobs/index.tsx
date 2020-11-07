@@ -17,11 +17,8 @@ const Jobs: React.FC = () => {
           </Title>
           <Title level={5}>Fullstack Developer Intern</Title>
           <Text>
-            {' '}
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere,
-            atque non accusamus quas mollitia ducimus eveniet modi quis incidunt
-            recusandae cupiditate exercitationem fugiat, itaque nostrum.
-            Corrupti enim maiores voluptatibus nihil!
+            Developed features for OpenText Media Management using JSP, Java,
+            and SQL
           </Text>
         </div>
         <div className={jobs.job}>
@@ -30,11 +27,7 @@ const Jobs: React.FC = () => {
           </Title>
           <Title level={5}>IT Help Desk Part-time</Title>
           <Text>
-            {' '}
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere,
-            atque non accusamus quas mollitia ducimus eveniet modi quis incidunt
-            recusandae cupiditate exercitationem fugiat, itaque nostrum.
-            Corrupti enim maiores voluptatibus nihil!
+            Provided general in-person IT support as well as maintaining labs
           </Text>
         </div>
         <div className={jobs.job}>
@@ -45,11 +38,8 @@ const Jobs: React.FC = () => {
           </Title>
           <Title level={5}>IT and Network Technician</Title>
           <Text>
-            {' '}
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere,
-            atque non accusamus quas mollitia ducimus eveniet modi quis incidunt
-            recusandae cupiditate exercitationem fugiat, itaque nostrum.
-            Corrupti enim maiores voluptatibus nihil!
+            Provided IT help desk support across 5 Durham Region hospitals as
+            well as hardware and network deployments
           </Text>
         </div>
         <div className={jobs.job}>
@@ -57,13 +47,7 @@ const Jobs: React.FC = () => {
             <a href="https://www.mcdonalds.com/ca/en-ca.html">McDonald's</a>
           </Title>
           <Title level={5}>Crew Member</Title>
-          <Text>
-            {' '}
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere,
-            atque non accusamus quas mollitia ducimus eveniet modi quis incidunt
-            recusandae cupiditate exercitationem fugiat, itaque nostrum.
-            Corrupti enim maiores voluptatibus nihil!
-          </Text>
+          <Text>pain</Text>
         </div>
       </Carousel>
     </div>

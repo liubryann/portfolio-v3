@@ -1,8 +1,6 @@
 import React, { useState } from 'react';
 import { Button, Typography } from 'antd';
 import { BulbFilled, BulbOutlined } from '@ant-design/icons';
-import dark from '../../styles/Dark.module.less';
-import styles from '../../styles/App.module.less';
 import header from './header.module.less';
 const { Title } = Typography;
 
