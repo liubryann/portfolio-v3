@@ -15,7 +15,7 @@ const Jobs: React.FC = () => {
           <Title level={4}>
             <a href="https://www.opentext.com/">OpenText</a>
           </Title>
-          <Title level={5}>Fullstack Developer Intern</Title>
+          <Title level={5}>Software Developer Intern</Title>
           <Text>
             Developed features for OpenText Media Management using JSP, Java,
             and SQL
